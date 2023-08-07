@@ -1,0 +1,11 @@
+you can type anything here
+
+display
+
+inline - single line - start with single line and end with single line
+block - multiple lines
+
+{
+    display: block
+    width: 220px 
+}
