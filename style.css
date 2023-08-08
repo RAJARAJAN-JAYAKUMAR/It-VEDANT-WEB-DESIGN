@@ -1,5 +1,14 @@
-/* hello there */
-/* text */
+body{
+    background-color: beige;
+
+}
+h1{
+    color: darkcyan;
+    text-align: center;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
 .navbar {
     position: relative;
     display: -webkit-box;
