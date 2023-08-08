@@ -1,13 +1,24 @@
 body{
     background-color: beige;
-
 }
 h1{
     color: darkcyan;
     text-align: center;
     font-size: x-large;
+    font-weight: 200;
+    font-style: normal;
+    font-variant: small-caps;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: blue;   
+    background-color: blue; 
+    position: relative;  
+    float:inherit;
+    height: 100px;
+    padding-bottom: 50px;
+    grid-row: span;
+    grid-column: 100px;
+    
+
+    
 }
 .navbar {
     position: relative;
