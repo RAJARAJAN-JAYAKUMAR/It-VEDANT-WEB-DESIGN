@@ -1,0 +1,105 @@
+/* body{
+    background-color:
+    background-image: url('/images folder/colleg image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    
+} */
+body{
+    /* background: url('/images folder/colleg image.jpg') no-repeat scroll;
+    background-size: cover; */
+    margin: 0%;
+    padding: 0%;
+}
+
+   
+.header {
+    display: flex;
+    justify-content: space-between; /* Evenly space items */
+    align-items: center; /* Vertically center items */
+    text-decoration: none;  
+    font-size:x-large;  
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #1a80c4;    
+}
+a{
+    text-decoration: none;
+    padding: 40px;
+    color:whitesmoke;
+}
+
+#coe{
+    margin: 0;
+    padding: 100px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: whitesmoke;
+    background-image:url('/IMAGES FOLDER/book.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.aboutourcollege {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 20px;
+    display:block;
+    column-count: 2;
+  }
+  
+.aboutourcollege h2 {
+    color: darkgoldenrod;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+  
+.aboutourcollege p {
+    color: #555;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+
+
+  /* footer section */
+  /* Apply styles to the footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style headings in the footer columns */
+.footer-column h3 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+/* Style links in the footer */
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the list in the second column */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style list items in the second column */
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+/* Clear margins for the last column */
+.footer-column:last-child {
+    margin-right: 0;
+}
