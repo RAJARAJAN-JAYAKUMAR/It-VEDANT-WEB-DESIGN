@@ -11,21 +11,47 @@
     <title>COLLEGE OF ENGINEERING, CHENNAI</title>
     <link rel="icon" href="/IMAGES FOLDER/favicon.ico" type="image/x-icon">
     <link rel=" stylesheet" href="/CSS FOLDER/index.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+    <script src="/JAVASCRIPT/Index.js"></script>
 </head>
 
 <body>
     <div>
-    <header class="header">
-            <a href="/HTML FOLDER/Homepage/index.html" target="_self">HOME</a>
-            <a href="/HTML FOLDER/Homepage/departments.html" target="T_blank">DEPARTMENTS</a>
-            <a href="/HTML FOLDER/Homepage/placements.html" target="_blank">PLACEMENTS</a>
-            <a href="/HTML FOLDER/Homepage/about.html" target="_blank">ABOUT</a>
-            <a href="/HTML FOLDER/Homepage/login.html" target="_blank">LOGIN/REGISTER</a>
-    </header>
-</div>  
+        <header class="header">
+                <a href="/HTML FOLDER/Homepage/index.html" target="_self">HOME</a>
+                <a href="/HTML FOLDER/Homepage/departments.html" target="T_blank">DEPARTMENTS</a>
+                <a href="/HTML FOLDER/Homepage/placements.html" target="_blank">PLACEMENTS</a>
+                <a href="/HTML FOLDER/Homepage/about.html" target="_blank">ABOUT</a>
+                <a href="/HTML FOLDER/Homepage/login.html" target="_blank">LOGIN/REGISTER</a>
+        </header>
+    </div>  
     <h1 id="coe">COLLEGE OF ENGINEERING<br><span id="coe1">Chennai, Tamilnadu - 600007</span></h1>
+    
+    <!-- slideshow -->
+    
+    <div class="slideshow">
+            <img class="mySlides" src="/IMAGES FOLDER/slide 1.jpg">
+            <img class="mySlides" src="/IMAGES FOLDER/slide 2.jpg">
+            <!-- Add more slide elements for each image -->
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
  
-   
+ <!-- vision and mission -->
     <div class="visionandmission">
         <dl>
             <dt>VISION</dt>
@@ -42,8 +68,9 @@
             <br>
         </dl>
     </div>
+
     <div class="aboutourcollege">
-        <h2 style="text-align: center;">ABOUT OUR COLLEGE</h2>
+        <h2>ABOUT OUR COLLEGE</h2>
         <p>College of Engineering, Tirunelveli, is a state-owned Engineering Institute located in the city of Tirunelveli in 
             the state of Tamil Nadu. Tirunelveli is often referred as the 'Oxford of south India' due to the larger number of 
             educational institutions present. It is affiliated to Anna University, Chennai and is a AICTE and DOTE approved 
@@ -54,22 +81,35 @@
 <!-- Footer section -->
     <footer class="footer">
         <div class="footer-column">
-            <h3>Contact Us</h3>
-            <a href="mailto: coedean.annauniv.edu"> Drop a mail</a>
-            <p>Phone: (123) 456-7890</p>
+             <h3>Information link</h3>
+             <ul>
+                <li>Home</li>
+                <li>Online Grievance Redressal</li>
+                <li>Student Learning Assesment Project</li>
+                <li>About Us</li>
+                <li>Department</li>
+                <li>Facilities</li>
+                <li>Clubs</li>
+                <li>Placement</li>
+                <li>SPDC</li>
+                <li>Alumni</li>
+              </ul> 
         </div>
         <div class="footer-column">
             <h3>Follow Us</h3>
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="https://www.facebook.com/login/">Facebook</a></li>
+                <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter/X</a></li>
+                <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
             </ul>
         </div>
         <div class="footer-column">
-            <h3>Location</h3>
-            <p>123 Main Street</p>
-            <p>City, State ZIP</p>
+            <h3>Contact Details</h3>
+            <p>principal@coe.ac.in</p>
+            <p>www.coe.ac.in</p>
+            <p>College of Engineering, Chennai,<br>Tamilnadu-600007</p>
+            <p>0462-2552450<br>0462-2552448</p>
+            <p>Click here to send an email</p>     
             <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3877676840366!2d80.23277747425502!3d13.01096081401576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52679fd80e657f%3A0x9727dde0ba49c84e!2sAnna%20University!5e0!3m2!1sen!2sin!4v1691751118060!5m2!1sen!2sin" name="collegemap" title="collegemap" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a> -->
         </div>
     </footer>

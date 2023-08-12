@@ -13,6 +13,10 @@ body {
     padding: 10px;
 }
 
+.container h2{
+    font-family: 'Poiret one';
+}
+
 .signup-form {
     background-color: lightcyan;
     padding-left: 70px;
