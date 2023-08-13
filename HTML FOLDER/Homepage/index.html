@@ -22,7 +22,7 @@
                 <a href="/HTML FOLDER/Homepage/departments.html" target="T_blank">DEPARTMENTS</a>
                 <a href="/HTML FOLDER/Homepage/placements.html" target="_blank">PLACEMENTS</a>
                 <a href="/HTML FOLDER/Homepage/about.html" target="_blank">ABOUT</a>
-                <a href="/HTML FOLDER/Homepage/login.html" target="_blank">LOGIN/REGISTER</a>
+                <a href="/HTML FOLDER/Homepage/login.html" target="_blank"> ERP LOGIN</a>
         </header>
     </div>  
     <h1 id="coe">COLLEGE OF ENGINEERING<br><span id="coe1">Chennai, Tamilnadu - 600007</span></h1>
@@ -30,15 +30,18 @@
     <!-- slideshow -->
     
     <div class="slideshow">
-            <img class="mySlides" src="/IMAGES FOLDER/slide 1.jpg">
-            <img class="mySlides" src="/IMAGES FOLDER/slide 2.jpg">
+            <img class="mySlides" src="/IMAGES FOLDER/Screenshot 2023-08-13 124354.png">
+            <img class="mySlides" src="/IMAGES FOLDER/Screenshot 2023-08-13 124416.png">
+            <img class="mySlides" src="/IMAGES FOLDER/Screenshot 2023-08-13 124439.png">
+            <img class="mySlides" src="/IMAGES FOLDER/Screenshot 2023-08-13 124454.png">
+
             <!-- Add more slide elements for each image -->
     </div>
     <script>
         var myIndex = 0;
-        carousel();
+        slide();
         
-        function carousel() {
+        function slide() {
           var i;
           var x = document.getElementsByClassName("mySlides");
           for (i = 0; i < x.length; i++) {
@@ -47,7 +50,7 @@
           myIndex++;
           if (myIndex > x.length) {myIndex = 1}    
           x[myIndex-1].style.display = "block";  
-          setTimeout(carousel, 2000); // Change image every 2 seconds
+          setTimeout(slide, 2000); // Change image every 2 seconds
         }
         </script>
  
@@ -55,7 +58,7 @@
     <div class="visionandmission">
         <dl>
             <dt>VISION</dt>
-            <dd>Our Vision is to make this institution a centre of learning, research eminence and excellence.</dd>
+            <dd>To make the Institute an epitome of excellence in higher education by effectively providing high quality education and rigorous training to students in multiple streams of choice with ample scope for all round development to make them excel in their profession for betterment of the society.</dd>
         </dl>
         <dl>
             <dt>MISSION</dt>
@@ -70,13 +73,13 @@
     </div>
 
     <div class="aboutourcollege">
-        <h2>ABOUT OUR COLLEGE</h2>
-        <p>College of Engineering, Tirunelveli, is a state-owned Engineering Institute located in the city of Tirunelveli in 
-            the state of Tamil Nadu. Tirunelveli is often referred as the 'Oxford of south India' due to the larger number of 
-            educational institutions present. It is affiliated to Anna University, Chennai and is a AICTE and DOTE approved 
-            educational institution in Tamil Nadu. It was established in the year 1981. The college is spread over an area of 
-            23 hectares. The institution offers five undergraduate and five postgraduate programs.</p>    
+        <h2>What We Believe </h2>
+        <p>COE students and scholars should be well-founded on the pursuit of knowledge through, teaching and learning research, with fellowships required on the basis of intellectual merit, ability and the potential for excellence.</p>
+        <p>Perspectives, arising from diverse knowledge background, that re-define our identities, deepen scholarly inquiry and enrich path breaking newer knowledge horizon.</p>
+        <p>Cherish the key values of academic freedom, creative and innovative thought, ethical standards and integrity, accountability and social justice, nurturing open mind and open society.</p>            
+        <p>Foster inquiry‐led and evidence‐based approach to creative knowledge; facilitate a vibrant academic ambience to the nurture the intellectual climate.</p>    
     </div>  
+
 
 <!-- Footer section -->
     <footer class="footer">
@@ -96,8 +99,20 @@
               </ul> 
         </div>
         <div class="footer-column">
+            <h3>Research</h3>
+            <ul>
+              <li>Ph.D Admission</li>
+              <li>Advanced R & D</li>
+              <li>AI Research Lab</li>
+              <li>Fish Immunology</li>
+              <li>Research Publications</li>
+              <li>Press Release</li>
+            </ul>
+          </div>
+        <div class="footer-column">
             <h3>Follow Us</h3>
             <ul>
+                <li><a href="https://www.facebook.com/login/">Youtube</a></li>
                 <li><a href="https://www.facebook.com/login/">Facebook</a></li>
                 <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">Twitter/X</a></li>
                 <li><a href="https://www.instagram.com/accounts/login/">Instagram</a></li>
