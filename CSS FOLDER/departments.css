@@ -32,6 +32,20 @@ body{
     background-color:black;
 }
 
+.department-container .department-card span{
+    color: red;
+}
+
+.department-container{
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 370px;  
+}
+
+.department-card{
+    padding-left: 20px;
+}
 
 
   
